@@ -34,3 +34,8 @@ When code is pushed to the `main` branch, GitHub Actions:
 npm ci
 npm test
 npm start
+
+<img width="1470" height="956" alt="Screenshot 2026-10-23 at 11 31 46 AM" src="https://github.com/user-attachments/assets/c7e95231-291d-42f2-a5ed-bc62a649a84c" />
+
+
+<img width="1470" height="956" alt="Screenshot 2026-10-23 at 12 03 09 PM" src="https://github.com/user-attachments/assets/26e422f9-1c83-4b0d-b88c-2efe7a6b9247" />
