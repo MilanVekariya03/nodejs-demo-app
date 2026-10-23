@@ -1,4 +1,3 @@
-
 # Node.js Demo App - CI/CD Pipeline
 
 A sample Node.js application demonstrating CI/CD automation using GitHub Actions and Docker Hub.
@@ -34,6 +33,10 @@ When code is pushed to the `main` branch, GitHub Actions:
 npm ci
 npm test
 npm start
+
+```
+
+## Screenshots
 
 <img width="1470" height="956" alt="Screenshot 2026-10-23 at 11 31 46 AM" src="https://github.com/user-attachments/assets/c7e95231-291d-42f2-a5ed-bc62a649a84c" />
 
