@@ -5,7 +5,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello! My GitHub Actions CI/CD pipeline is working.',
+    // message: 'Hello! My GitHub Actions CI/CD pipeline is working.',
+    message: 'CI/CD pipeline successfully deployed a new version!',
     project: 'Node.js Demo App',
     status: 'success'
   });
