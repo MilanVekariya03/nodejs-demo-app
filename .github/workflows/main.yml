@@ -1,3 +1,4 @@
+
 name: Node.js CI/CD Pipeline
 
 on:
@@ -43,7 +44,8 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-demo-app:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-demo-app:${{ github.sha }}
+            milan12344/nodejs-demo-app:latest
+            milan12344/nodejs-demo-app:${{ github.sha }}
